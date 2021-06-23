@@ -4,7 +4,7 @@ metadata:
   name: hello-kubernetes
 spec:
   ports:
-  - nodePort: 31282
+  - nodePort: 30282
     port: 8080
     protocol: TCP
     targetPort: 8080

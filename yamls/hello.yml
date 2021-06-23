@@ -5,7 +5,7 @@ metadata:
     deployment.kubernetes.io/revision: "1"
   name: hello-kubernetes
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: hello-kubernetes

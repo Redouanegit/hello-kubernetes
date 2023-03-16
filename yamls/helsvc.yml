@@ -11,4 +11,4 @@ spec:
   selector:
     app: hello-kubernetes
   sessionAffinity: None
-  type: NodePort
+  type: LoadBalancer

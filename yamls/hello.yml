@@ -20,7 +20,7 @@ spec:
         app: hello-kubernetes
     spec:
       containers:
-      - image: paulbouwer/hello-kubernetes:1.8
+      - image: paulbouwer/hello-kubernetes:1.10
         imagePullPolicy: IfNotPresent
         name: hello-kubernetes
         ports:

@@ -23,6 +23,13 @@ spec:
       - image: paulbouwer/hello-kubernetes:1.10
         imagePullPolicy: IfNotPresent
         name: hello-kubernetes
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
         ports:
         - containerPort: 8080
           protocol: TCP
